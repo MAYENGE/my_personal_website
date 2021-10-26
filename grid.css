@@ -1,0 +1,11 @@
+* {
+   font-family:helvetica;
+   font-size: 1em;
+   color: red;
+   text-align: center;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,ninmax(100px,1fr));
+}

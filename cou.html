@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<Html>
+    <Header>
+        <TItle>MIKE'S counter</TItle>
+    </Header>
+    <Script>
+        let counter = 0;
+        function count (){
+            counter++;
+            document.querySelector('h1').innerHTML=counter;
+        }
+    </Script>
+    <body>
+        <h1>0</h1>
+        <button onclick="count()">count</button>
+    </body>
+</Html>
